@@ -4,7 +4,7 @@ Timer
 ## Overview
 ---
 
-発表用タイマー
+[発表用タイマー](http://ya-androidapp.github.io/Timer/)
 
 ## Libraries, Materials
 
