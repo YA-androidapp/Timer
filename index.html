@@ -184,16 +184,14 @@ function reSet(){
   flag=-1;
   document.getElementById("dm").value=allmin;
   document.getElementById("ds").value=( '0' + allsec ).slice( -2 );
-  document.getElementById("db1m").value=allmin-preIb1m;
-  document.getElementById("db1s").value=( '0' + (alltime-preIb1s) ).slice( -2 );
-  document.getElementById("db2m").value=allmin-preIb2m;
-  document.getElementById("db2s").value=( '0' + (alltime-preIb2s) ).slice( -2 );
   document.getElementById("im").value="0";
   document.getElementById("is").value="00";
   document.getElementById("ib1m").value=preIb1m;
   document.getElementById("ib1s").value=( '0' + preIb1s ).slice( -2 );
   document.getElementById("ib2m").value=preIb2m;
   document.getElementById("ib2s").value=( '0' + preIb2s ).slice( -2 );
+  updateDb1();
+  updateDb2();
   setDis(false);
   setCol("");
   updateProgress(0);
